@@ -1,0 +1,125 @@
+body {
+    font-family: "Sono", sans-serif;
+  
+  }
+  .pricing-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 2rem
+    }
+
+    .pricing-plan {
+      flex: 1;
+      max-width: 400px;
+      padding: 20px;
+      background-image: linear-gradient(to right, #030637, #3C0753, #720455, #910A67);
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+
+    }
+
+    .plan-price {
+      font-size: 2rem;
+      font-weight: 600;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .plan-title {
+    font-weight: bold; 
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+    }
+
+    .plan-features {
+      
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   
+    }
+    .plan-features li {
+      margin: 20px;
+    }
+
+    button {
+      background-image: linear-gradient(to right, #FFF3C7, #FEC7B4, #FC819E, #F7418F); /* Example gradient */
+
+      color: black; /* White text */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor:pointer;
+    }
+
+    button:hover {
+      background-color: #46f652 ;
+    }
+  
+    
+
+  
+  @media (max-width: 1250px) {
+
+    .pricing-container {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+
+    .pricing-plan {
+      flex: 1 ;
+      max-width: 400px;
+      
+      padding: 20px;
+      background-color: #ade8f4;
+      border-radius: 10px;
+      text-align: center;
+
+    }
+
+    .plan-price {
+      font-size: 2rem;
+      font-weight: 600;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .plan-title {
+    font-weight: bold; 
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+    }
+
+    .plan-features {
+      
+      list-style: none;
+      padding: 0;
+      margin: 0;
+     
+    }
+    .plan-features li {
+      margin: 20px;
+    }
+
+    button {
+      background-image: linear-gradient(to right, #FFF3C7, #FEC7B4, #FC819E, #F7418F); /* Example gradient */
+
+      color: black; 
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor:pointer;
+    }
+
+    button:hover {
+      background-color: #46f652 ;
+    }
+  }
